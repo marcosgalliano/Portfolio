@@ -22,7 +22,7 @@
 
 .navBar_div {
   grid-area: navb;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(146, 208, 255);
 }
 
 .navBar_div ul {
@@ -36,10 +36,10 @@
 .navBar_div ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(255, 255, 255);
   transition: 1s;
-  color: black;
-  font-family: "M PLUS 1p", sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: "Alata", sans-serif;
 }
 
 .navBar_div ul li a:hover {
@@ -53,7 +53,19 @@
 
 .aboutMe_div {
   grid-area: aboutMe;
-  background-color: aqua;
+  background-color: rgb(39, 50, 253);
+}
+
+.aboutMe_div h1 {
+  display: inline-block;
+  position: relative;
+  background-color: rgb(92, 138, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 0px 15px 15px 0px;
+  padding-right: 30px;
+  padding-left: 4px;
+  margin-top: 20px;
+  font-family: "Alata", sans-serif;
 }
 
 .skills_div {

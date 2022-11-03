@@ -1,4 +1,16 @@
 .aboutMe_div{
     grid-area: aboutMe;
-    background-color: aqua;
+    background-color: rgb(39, 50, 253);
+}
+
+.aboutMe_div h1{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(92, 138, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 0px 15px 15px 0px;
+    padding-right: 30px;
+    padding-left: 4px;
+    margin-top: 20px;
+    font-family: 'Alata', sans-serif;
 }
