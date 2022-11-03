@@ -1,4 +1,17 @@
 .contact_div{
     grid-area: contact;
-    background-color: cadetblue;
+    background-color: rgb(58, 37, 253);
+    text-align: center;
+}
+
+.contact_div h1{
+    display: inline-block;
+    background-color: rgb(92, 138, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 20px;
+    font-family: 'Alata', sans-serif;
+    padding-bottom: 2px;
 }

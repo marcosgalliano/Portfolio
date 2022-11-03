@@ -22,7 +22,7 @@
 
 .navBar_div {
   grid-area: navb;
-  background-color: rgb(146, 208, 255);
+  background-color: rgb(92, 138, 255);
 }
 
 .navBar_div ul {
@@ -40,10 +40,11 @@
   transition: 1s;
   color: rgb(255, 255, 255);
   font-family: "Alata", sans-serif;
+  padding-bottom: 4px;
 }
 
 .navBar_div ul li a:hover {
-  padding-bottom: 5px;
+  padding-bottom: 9px;
 }
 
 .navBar_div ul li {
@@ -53,12 +54,11 @@
 
 .aboutMe_div {
   grid-area: aboutMe;
-  background-color: rgb(39, 50, 253);
+  background-color: rgb(255, 255, 255);
 }
 
 .aboutMe_div h1 {
   display: inline-block;
-  position: relative;
   background-color: rgb(92, 138, 255);
   color: rgb(255, 255, 255);
   border-radius: 0px 15px 15px 0px;
@@ -66,26 +66,64 @@
   padding-left: 4px;
   margin-top: 20px;
   font-family: "Alata", sans-serif;
+  padding-bottom: 2px;
 }
 
 .skills_div {
   grid-area: skills;
-  background-color: blueviolet;
+  background-color: rgb(210, 230, 251);
+}
+
+.skills_div h1 {
+  background-color: rgb(92, 138, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 15px 0px 0px 15px;
+  padding-left: 30px;
+  padding-right: 4px;
+  margin-top: 20px;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 2px;
+  float: right;
 }
 
 .education_div {
   grid-area: education;
-  background-color: cornflowerblue;
+  background-color: rgb(132, 191, 255);
+}
+
+.education_div h1 {
+  display: inline-block;
+  background-color: rgb(92, 138, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 0px 15px 15px 0px;
+  padding-right: 30px;
+  padding-left: 4px;
+  margin-top: 20px;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 2px;
 }
 
 .contact_div {
   grid-area: contact;
-  background-color: cadetblue;
+  background-color: rgb(58, 37, 253);
+  text-align: center;
+}
+
+.contact_div h1 {
+  display: inline-block;
+  background-color: rgb(92, 138, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-top: 20px;
+  font-family: "Alata", sans-serif;
+  padding-bottom: 2px;
 }
 
 main {
   display: grid;
   grid-template-areas: "navb" "aboutMe" "skills" "education" "contact";
   grid-template-columns: 100%;
-  grid-template-rows: 54px 300px 300px 300px 220px;
+  grid-template-rows: 54px 500px 500px 500px 300px;
 }/*# sourceMappingURL=estilos.css.map */

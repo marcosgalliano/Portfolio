@@ -1,4 +1,16 @@
 .education_div{
     grid-area: education;
-    background-color: cornflowerblue;
+    background-color: rgb(132, 191, 255);
+}
+
+.education_div h1{
+    display: inline-block;
+    background-color: rgb(92, 138, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 0px 15px 15px 0px;
+    padding-right: 30px;
+    padding-left: 4px;
+    margin-top: 20px;
+    font-family: 'Alata', sans-serif;
+    padding-bottom: 2px;
 }

@@ -1,4 +1,16 @@
 .skills_div{
     grid-area: skills;
-    background-color: blueviolet;
+    background-color: rgb(210, 230, 251);
+}
+
+.skills_div h1{
+    background-color: rgb(92, 138, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 30px;
+    padding-right: 4px;
+    margin-top: 20px;
+    font-family: 'Alata', sans-serif;
+    padding-bottom: 2px;
+    float: right;
 }
