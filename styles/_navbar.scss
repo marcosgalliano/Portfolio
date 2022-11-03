@@ -1,6 +1,6 @@
 .navBar_div{
     grid-area: navb;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .navBar_div ul {
@@ -14,4 +14,19 @@
 .navBar_div ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transition: 1s;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
 }
+
+.navBar_div ul li a:hover{
+    padding-bottom: 5px;
+}
+
+.navBar_div ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+

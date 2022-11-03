@@ -22,7 +22,7 @@
 
 .navBar_div {
   grid-area: navb;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .navBar_div ul {
@@ -36,9 +36,44 @@
 .navBar_div ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transition: 1s;
+  color: black;
+  font-family: "M PLUS 1p", sans-serif;
 }
 
-body {
+.navBar_div ul li a:hover {
+  padding-bottom: 5px;
+}
+
+.navBar_div ul li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.aboutMe_div {
+  grid-area: aboutMe;
+  background-color: aqua;
+}
+
+.skills_div {
+  grid-area: skills;
+  background-color: blueviolet;
+}
+
+.education_div {
+  grid-area: education;
+  background-color: cornflowerblue;
+}
+
+.contact_div {
+  grid-area: contact;
+  background-color: cadetblue;
+}
+
+main {
   display: grid;
-  grid-template-areas: "presentacion" "navb" "skills" "education" "contact";
+  grid-template-areas: "navb" "aboutMe" "skills" "education" "contact";
+  grid-template-columns: 100%;
+  grid-template-rows: 54px 300px 300px 300px 220px;
 }/*# sourceMappingURL=estilos.css.map */

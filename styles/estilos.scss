@@ -2,12 +2,23 @@
 
 @import "./navbar";
 
-body{
+@import "./aboutme";
+
+@import "./skills";
+
+@import "./education";
+
+@import "./contact.scss";
+
+main{
     display: grid;
     grid-template-areas: 
-    "presentacion"
     "navb"
+    "aboutMe"
     "skills"
     "education"
     "contact";
+    grid-template-columns: 100%;
+    grid-template-rows:54px 300px 300px 300px 220px;
 }
+
