@@ -1,1 +1,13 @@
 @import "./header";
+
+@import "./navbar";
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "presentacion"
+    "navb"
+    "skills"
+    "education"
+    "contact";
+}

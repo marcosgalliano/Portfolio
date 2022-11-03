@@ -10,4 +10,35 @@
 
 .div_imgPresentacion {
   width: 100%;
+}
+
+.navBar_div ul {
+  list-style: none;
+}
+
+.header {
+  grid-area: presentacion;
+}
+
+.navBar_div {
+  grid-area: navb;
+  background-color: black;
+}
+
+.navBar_div ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+  margin-bottom: 0%;
+}
+
+.navBar_div ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  display: grid;
+  grid-template-areas: "presentacion" "navb" "skills" "education" "contact";
 }/*# sourceMappingURL=estilos.css.map */

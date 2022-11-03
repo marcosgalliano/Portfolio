@@ -1,0 +1,17 @@
+.navBar_div{
+    grid-area: navb;
+    background-color: black;
+}
+
+.navBar_div ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+.navBar_div ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
