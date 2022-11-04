@@ -22,3 +22,12 @@ main{
     grid-template-rows:54px 800px 800px 800px 500px;
 }
 
+@keyframes efecto{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

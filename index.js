@@ -9,10 +9,10 @@ window.addEventListener("scroll", () => {
     let tamañoDePantalla = window.innerHeight;
 
     if(posicionObj1 < tamañoDePantalla){
-        animacion.style.animation = 'efecto 2s ease-out'
+        animacion.style.animation = 'efectoh1X2 1.2s ease-out'
     }
 
     if(posicionObj2 < tamañoDePantalla){
-        animacion2.style.animation = 'efecto 2s ease-out'
+        animacion2.style.animation = 'efecto 2.5s ease-out'
     }
 })
