@@ -1,15 +1,12 @@
 window.addEventListener("scroll", () => {
-    //ABOUT ME
-    let animacion = document.getElementById("aboutMex");
-    let posicionObj1 = animacion.getBoundingClientRect().top;
     //SKILLS
-    let animacion2 = document.getElementById("skillsx");
-    let posicionObj2 = animacion2.getBoundingClientRect().top;
+    let animacion = document.getElementById("skillsx");
+    let posicionObj1 = animacion.getBoundingClientRect().top;
     //EDUCATION
-    let animacion3 = document.getElementById("educationx");
-    let posicionObj3 = animacion3.getBoundingClientRect
+    let animacion2 = document.getElementById("educationx");
+    let posicionObj2 = animacion2.getBoundingClientRect().top;
     //PANTALLA
-    let tamañoDePantalla = window.innerHeight/3.5;
+    let tamañoDePantalla = window.innerHeight;
 
     if(posicionObj1 < tamañoDePantalla){
         animacion.style.animation = 'efecto 2s ease-out'
