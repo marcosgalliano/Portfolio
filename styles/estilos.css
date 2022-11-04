@@ -69,16 +69,9 @@
   padding-bottom: 2px;
 }
 
-.aboutMe_div:target {
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-name: efecto;
-          animation-name: efecto;
-}
-
 @-webkit-keyframes efecto {
   from {
-    transform: translateX(4px);
+    transform: translateX(15px);
     opacity: 0;
   }
   to {
@@ -89,7 +82,7 @@
 
 @keyframes efecto {
   from {
-    transform: translateX(4px);
+    transform: translateX(15px);
     opacity: 0;
   }
   to {
