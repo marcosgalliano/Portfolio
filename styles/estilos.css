@@ -142,5 +142,5 @@ main {
   display: grid;
   grid-template-areas: "navb" "aboutMe" "skills" "education" "contact";
   grid-template-columns: 100%;
-  grid-template-rows: 54px 500px 500px 500px 300px;
+  grid-template-rows: 54px 800px 800px 800px 500px;
 }/*# sourceMappingURL=estilos.css.map */
