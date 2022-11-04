@@ -14,3 +14,19 @@
     font-family: 'Alata', sans-serif;
     padding-bottom: 2px;
 }
+
+.aboutMe_div:target{
+    animation-duration: 2s;
+    animation-name: efecto;
+}
+
+@keyframes efecto{
+    from{
+        transform: translateX(390px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
