@@ -14,3 +14,18 @@
     font-family: 'Alata', sans-serif;
     padding-bottom: 2px;
 }
+
+.education_div h1:hover{
+    animation-name: efectoh1X;
+    animation-duration: 1s;
+}
+
+@keyframes efectoh1X{
+    0%{transform: translateX(0px);}
+    20%{transform: translateX(10px);}
+    40%{transform: translateX(0px);}
+    60%{transform: translateX(5px);}
+    80%{transform: translateX(0px);}
+    90%{transform: translateX(2px);}
+    100%{transform: translateX(0px);}
+}
