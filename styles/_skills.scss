@@ -1,6 +1,12 @@
 .skills_div{
     grid-area: skills;
-    background-color: rgb(210, 230, 251);
+    background-color: rgb(232, 243, 255);
+    display: grid;
+    grid-template-areas: 
+    "nada skillsH1"
+    "skills skills";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 13% 87%;
 }
 
 .skills_div h1{
@@ -10,8 +16,9 @@
     padding-left: 30px;
     padding-right: 4px;
     margin-top: 20px;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto Slab', serif;
     padding-bottom: 2px;
+    grid-area: skillsH1;
     float: right;
 }
 
@@ -29,3 +36,56 @@
     90%{transform: translateX(-2px);}
     100%{transform: translateX(0px);}
 }
+
+.skillsBar{
+    grid-area: skills;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill{
+    margin-bottom: 30px;
+}
+
+.skills-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per{
+    height: 14px;
+    background: #36b6fb;
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #21ff3e;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -36px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+
