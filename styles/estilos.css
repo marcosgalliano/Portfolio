@@ -233,9 +233,16 @@
   grid-area: skills;
   background-color: rgb(232, 243, 255);
   display: grid;
-  grid-template-areas: "nada skillsH1" "skills skills";
-  grid-template-columns: 70% 30%;
+  grid-template-areas: "skills skillsH1" "skills texto";
+  grid-template-columns: 60% 40%;
   grid-template-rows: 13% 87%;
+}
+
+.textoInfo {
+  grid-area: texto;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  border-left: 1px solid black;
 }
 
 .skills_div h1 {
@@ -247,8 +254,13 @@
   margin-top: 20px;
   font-family: "Roboto Slab", serif;
   padding-bottom: 2px;
+  width: 150px;
+}
+
+.skillsh1 {
   grid-area: skillsH1;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .skills_div h1:hover {
@@ -333,13 +345,13 @@
 
 .skill-bar {
   height: 14px;
-  background: #282828;
+  background: #ffffff;
   border-radius: 3px;
 }
 
 .skill-per {
   height: 14px;
-  background: #36b6fb;
+  background: #84ff6e;
   border-radius: 3px;
   position: relative;
 }
@@ -348,10 +360,94 @@
   content: attr(per);
   position: absolute;
   padding: 4px 6px;
-  background: #21ff3e;
+  background: #bfbaff;
   border-radius: 4px;
   font-size: 12px;
   top: -36px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skillsP {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skillP {
+  margin-bottom: 30px;
+}
+
+.skills-nameP {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  margin: 20px 0;
+}
+
+.skill-barP {
+  height: 14px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.skill-perP {
+  height: 14px;
+  background: #c5f474;
+  border-radius: 3px;
+  position: relative;
+}
+
+.skill-perP::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #bfbaff;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -36px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skillsR {
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skillR {
+  margin-bottom: 30px;
+}
+
+.skills-nameR {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f1f1;
+  margin: 20px 0;
+}
+
+.skill-barR {
+  height: 14px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.skill-perR {
+  height: 14px;
+  background: #ff8a30;
+  border-radius: 3px;
+  position: relative;
+}
+
+.skill-perR::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #bfbaff;
+  border-radius: 4px;
+  font-size: 12px;
+  top: 20px;
   right: 0;
   transform: translateX(50%);
 }
