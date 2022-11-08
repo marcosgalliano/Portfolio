@@ -219,6 +219,12 @@
   margin: 0;
 }
 
+.info {
+  text-align: center;
+  grid-area: info;
+  margin-top: 25%;
+}
+
 .skills_div {
   grid-area: skills;
   background-color: rgb(210, 230, 251);
