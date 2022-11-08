@@ -162,7 +162,8 @@
 .datos_nombre {
   grid-area: nombre;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
+  border-bottom: 1px solid black;
 }
 
 .datos_nombre h5 {
@@ -172,7 +173,8 @@
 .datos_birthday {
   grid-area: birthday;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
+  border-bottom: 1px solid black;
 }
 
 .datos_birthday h5 {
@@ -182,7 +184,8 @@
 .datos_birthplace {
   grid-area: bPlace;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
+  border-bottom: 1px solid black;
 }
 
 .datos_birthplace h5 {
@@ -192,7 +195,8 @@
 .datos_adress {
   grid-area: adress;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
+  border-bottom: 1px solid black;
 }
 
 .datos_adress h5 {
@@ -202,7 +206,7 @@
 .datos_phone {
   grid-area: phone;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .datos_phone h5 {
@@ -212,7 +216,7 @@
 .datos_mail {
   grid-area: mail;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 
 .datos_mail h5 {
