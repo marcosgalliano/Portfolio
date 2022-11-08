@@ -12,7 +12,7 @@
     padding-right: 30px;
     padding-left: 4px;
     margin-top: 20px;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto Slab', serif;
     padding-bottom: 2px;
     width: 164px;
     height: 36px;
@@ -66,7 +66,7 @@
 
 .datos{
     grid-area: datos;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Roboto Slab', serif;
     display: grid;
     grid-template-areas: 
     "nombre birthday"
@@ -105,6 +105,7 @@
 .datos_birthplace{
     grid-area: bPlace;
     text-align: center;
+    margin-top: 5%;
 }
 
 .datos_birthplace h5{
@@ -116,6 +117,7 @@
 .datos_adress{
     grid-area: adress;
     text-align: center;
+    margin-top: 5%;
 }
 
 .datos_adress h5{
@@ -149,4 +151,5 @@
 .info{
     text-align: center;
     grid-area: info;
+    font-family: 'Roboto Slab', serif;
 }
